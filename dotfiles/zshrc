@@ -1,0 +1,20 @@
+# Setup ENVs
+export CLICOLOR=1
+export GOPATH=$HOME/go
+
+# Setup PATH Locations
+export PATH=$PATH:/opt/homebrew/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# Command Aliases
+alias k="kubectl"
+alias tf="terraform"
+alias ls="ls --color=always -lL"
+alias ll="ls --color=always -lL"
+
+# PS1 Setup
+if [ -n "$ZSH_VERSION" ]; then
+  PROMPT="[%F{magenta}%*%F%f] %F{green}%n%f@%F{yellow}%m%f [%F{blue}%~%f] > "
+elif [ -n "$BASH_VERSION" ]; then
+  export PS1="[\[\e[35m\]\t\[\e[m\]] \[\e[32m\]\u\[\e[m\]@\[\e[33m\]\h\[\e[m\] [\[\e[34m\]\w\[\e[m\]] > "  
+fi

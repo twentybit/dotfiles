@@ -1,0 +1,8 @@
+[user]
+    name = "Twentybit"
+    email = "twentybitdev@gmail.com"
+    signingkey = "~/.ssh/id_ed25519"
+[commit]
+    gpgSign = true
+[gpg]
+    format = "ssh"
