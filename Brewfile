@@ -26,6 +26,9 @@ vscode "shakram02.bash-beautify"
 # Golang
 brew "go"
 
+# Docker
+cask "docker"
+
 # Kubernetes
 brew "kubectl"
 brew "helm"
