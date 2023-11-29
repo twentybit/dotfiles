@@ -11,6 +11,12 @@ cask "visual-studio-code"
 # Alfred
 cask "alfred"
 
+# Slack
+cask "slack"
+
+# PocketCasts
+cask "pocket-casts"
+
 # VSCode Extensions
 vscode "dracula-theme.theme-dracula"
 vscode "golang.go"
@@ -27,6 +33,7 @@ brew "k9s"
 
 # CLI Things
 brew 'bash-completion'
+brew 'k3d'
 brew 'git'
 brew "jq"
 brew "yq"
