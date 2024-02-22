@@ -10,5 +10,9 @@ for file in dotfiles/*; do
     echo "Installed ~/.${file#*/}"
 done
 
+# Symlink VSCode settings
+ln -sf ~/Library/Application\ Support/Code/User/settings.json vscode-settings.json
+echo "Installed VSCode's settings.json"
+
 # Reload zshrc
 source ~/.zshrc

@@ -17,6 +17,9 @@ cask "slack"
 # PocketCasts
 cask "pocket-casts"
 
+# Todoist
+cask "todoist"
+
 # VSCode Extensions
 vscode "dracula-theme.theme-dracula"
 vscode "golang.go"
