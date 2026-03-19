@@ -1,0 +1,6 @@
+{
+    "chat.disableAIFeatures": true,
+    "editor.formatOnSave": true,
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Dracula Theme",
+}
