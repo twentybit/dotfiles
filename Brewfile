@@ -8,7 +8,7 @@ cask "whatsapp"
 
 brew "ansible"
 brew "k9s"
-brew "helm"
+brew "helm@3", link: true
 brew "kubectl"
 brew "git"
 brew "go"
